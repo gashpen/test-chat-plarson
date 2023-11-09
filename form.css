@@ -1,0 +1,52 @@
+.footer_form-wrapp{
+    width: 100%;
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.footer_form{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.form_textarea{
+    width: calc(100% - 80px);
+    resize: vertical;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    outline:none;
+}
+.scroll_bar::-webkit-resizer{
+   display: none;
+}
+
+.scroll_bar::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.scroll_bar::-webkit-scrollbar-track {
+    display: none;
+}
+  
+.scroll_bar::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+}
+
+.form_button{
+    cursor: pointer;
+    font-size: 20px;
+    border: none; 
+    outline: none;
+    background-color: #ffffff;
+}

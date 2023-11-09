@@ -1,0 +1,106 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+body{
+    width: 600px;
+    height: 500px;
+}
+
+.chat_wrapp{
+    border-radius: 30px;
+    border: 3px solid #d1d1d1;
+    background-image: url('./img/photo_2023-11-09_14-22-31.jpg');
+}
+
+.chat_header{
+    min-height: 50px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 3px solid #ffffff;
+}
+
+.chat_window-wrapp{
+    height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+}
+
+.chat_user_list{    
+    width: 200px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.chat_view_window{
+    width: calc(100% - 200px);
+    overflow-y: scroll;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 5px
+}
+
+.footer{
+    min-height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: 1px solid #d1d1d1;;
+    border-radius: 30px ;
+    background-color: rgb(255, 255, 255);
+}
+
+.test_box{
+    border: 1px solid rgb(255, 255, 255);
+    width: 50%;
+}
+
+.contact{
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.text_box-wrapp{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.message{
+    padding: 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70px;
+    flex: 0 0 70px;
+    border-radius: 30px;
+    word-break: normal;
+}
+
+.my_message{
+    margin-left: 50%;
+}
+
+.btn{
+    cursor: pointer;
+}
